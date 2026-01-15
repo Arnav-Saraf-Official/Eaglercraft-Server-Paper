@@ -1,6 +1,15 @@
 #!/bin/sh
-java -Xmx2G -Xms2G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dcom.mojang.eula.agree=true -jar paper-1.12.2.jar
 
+# 1. Start the server in the background using '&'
+# We use 'nohup' and redirect output to a file so it doesn't clutter your terminal
+nohup java -Xmx2G -Xms2G -XX:+UseG1GC -XX:+ParallelRefProcEnabled \
+  -XX:+UnlockExperimentalVMOptions -Dcom.mojang.eula.agree=true \
+  -jar paper-1.12.2.jar > server.log 2>&1 &
+
+# 2. Wait a few seconds for the server to actually bind to the port
+sleep 5
+
+# 3. Now run your visibility commands
 for port in $(gh codespace ports --json sourcePort -q '.[].sourcePort'); do
-  gh codespace ports visibility $port:public
+  gh codespace ports visibility "$port:public" -c "$CODESPACE_NAME"
 done
