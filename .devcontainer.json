@@ -1,4 +1,4 @@
 {
   "name": "Auto-start",
-  "postStartCommand": "bash -c 'source ./run.sh'"
+  "postAttachCommand": "bash -c 'source ./run.sh'"
 }
