@@ -1,0 +1,4 @@
+{
+  "name": "Auto-start",
+  "postStartCommand": "bash -c 'source ./run.sh'"
+}
