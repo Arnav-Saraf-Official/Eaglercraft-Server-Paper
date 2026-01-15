@@ -7,5 +7,5 @@
       "onAutoForward": "silent"
     }
   },
-  "postAttachCommand": "bash run.sh"
+  "postStartCommand": "bash run.sh"
 }
