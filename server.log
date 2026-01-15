@@ -1,0 +1,196 @@
+Loading libraries, please wait...
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.lmax.disruptor.RingBufferFields (file:/workspaces/Eaglercraft-Server-Paper/cache/patched_1.12.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.lmax.disruptor.RingBufferFields
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by com.sun.jna.Native in an unnamed module (file:/workspaces/Eaglercraft-Server-Paper/cache/patched_1.12.2.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+2026-01-15 04:26:29,910 main WARN Disabling terminal, you're running in an unsupported environment.
+[04:26:32 INFO]: Starting minecraft server version 1.12.2
+[04:26:32 INFO]: Loading properties
+[04:26:32 WARN]: You have used the Spigot command line EULA agreement flag.
+[04:26:32 WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://account.mojang.com/documents/minecraft_eula).
+[04:26:32 WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[04:26:32 INFO]: Default game type: SURVIVAL
+[04:26:32 INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[04:26:32 INFO]: Debug logging is disabled
+[04:26:32 INFO]: Server Ping Player Sample Count: 12
+[04:26:32 INFO]: Using 4 threads for Netty based IO
+[04:26:33 INFO]: Generating keypair
+[04:26:33 INFO]: Starting Minecraft server on *:25565
+[04:26:33 INFO]: Using epoll channel type
+[04:26:33 INFO]: Set PluginClassLoader as parallel capable
+[04:26:34 INFO]: [AuthMe] Loading AuthMe v5.6.0-bCUSTOM
+[04:26:34 INFO]: [ViaVersion] Loading ViaVersion v5.3.3-SNAPSHOT
+[04:26:34 INFO]: [ViaVersion] ViaVersion 5.3.3-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[04:26:35 INFO]: [ViaVersion] Loading block connection mappings ...
+[04:26:36 INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:26:37 INFO]: [ViaBackwards] Loading translations...
+[04:26:37 INFO]: [ViaBackwards] Registering protocols...
+[04:26:38 INFO]: [ViaRewind] Registering protocols...
+[04:26:39 INFO]: [ViaBackwards] Loading ViaBackwards v5.3.2
+[04:26:39 INFO]: [ViaRewind] Loading ViaRewind v4.0.7
+[04:26:39 INFO]: [ViaRewind-Legacy-Support] Loading ViaRewind-Legacy-Support v1.5.2
+[04:26:39 INFO]: [SkinsRestorer] Loading SkinsRestorer v15.9.3
+[04:26:39 INFO]: [EaglerXServer] Loading EaglercraftXServer v1.0.7
+[04:26:39 INFO]: [EaglerXServer] (Platform: Bukkit)
+[04:26:39 WARN]: [EaglerXServer] Note: Its highly recommended to install EaglerXServer on BungeeCord or Velocity instead, you will have a much better experience
+[04:26:39 WARN]: [EaglerXServer] Note: If you are not using Spigot (or a derivative like Paper) or a version above 1.12.2, things probably won't work right
+[04:26:39 INFO]: [EaglerXServer] Server Name: "EaglercraftXServer"
+[04:26:39 INFO]: [EaglerXRewind-1.5] Loading EaglercraftXRewind-1-5 v1.0.2
+[04:26:39 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:26:39 INFO]: [ViaRewind] Enabling ViaRewind v4.0.7
+[04:26:39 INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.3
+[04:26:41 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.12.2[32;1m.[0;39m
+[04:26:43 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[04:26:43 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:26:43 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:26:43 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:26:43 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:26:43 INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[04:26:43 INFO]: Preparing level "world"
+[04:26:43 INFO]: -------- World Settings For [world] --------
+[04:26:43 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[04:26:43 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:26:43 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:26:43 INFO]: Random Lighting Updates: false
+[04:26:43 INFO]: Structure Info Saving: true
+[04:26:43 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[04:26:43 INFO]: Cactus Growth Modifier: 100%
+[04:26:43 INFO]: Cane Growth Modifier: 100%
+[04:26:43 INFO]: Melon Growth Modifier: 100%
+[04:26:43 INFO]: Mushroom Growth Modifier: 100%
+[04:26:43 INFO]: Pumpkin Growth Modifier: 100%
+[04:26:43 INFO]: Sapling Growth Modifier: 100%
+[04:26:43 INFO]: Wheat Growth Modifier: 100%
+[04:26:43 INFO]: NetherWart Growth Modifier: 100%
+[04:26:43 INFO]: Vine Growth Modifier: 100%
+[04:26:43 INFO]: Cocoa Growth Modifier: 100%
+[04:26:43 INFO]: Mob Spawn Range: 4
+[04:26:43 INFO]: Max TNT Explosions: 100
+[04:26:43 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:26:43 INFO]: View Distance: 6
+[04:26:43 INFO]: Item Despawn Rate: 6000
+[04:26:43 INFO]: Item Merge Radius: 2.5
+[04:26:43 INFO]: Arrow Despawn Rate: 1200
+[04:26:43 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:26:43 INFO]: Experience Merge Radius: 3.0
+[04:26:43 INFO]: Zombie Aggressive Towards Villager: true
+[04:26:43 INFO]: Nerfing mobs spawned from spawners: false
+[04:26:44 INFO]: -------- World Settings For [world_nether] --------
+[04:26:44 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[04:26:44 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:26:44 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:26:44 INFO]: Random Lighting Updates: false
+[04:26:44 INFO]: Structure Info Saving: true
+[04:26:44 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[04:26:44 INFO]: Cactus Growth Modifier: 100%
+[04:26:44 INFO]: Cane Growth Modifier: 100%
+[04:26:44 INFO]: Melon Growth Modifier: 100%
+[04:26:44 INFO]: Mushroom Growth Modifier: 100%
+[04:26:44 INFO]: Pumpkin Growth Modifier: 100%
+[04:26:44 INFO]: Sapling Growth Modifier: 100%
+[04:26:44 INFO]: Wheat Growth Modifier: 100%
+[04:26:44 INFO]: NetherWart Growth Modifier: 100%
+[04:26:44 INFO]: Vine Growth Modifier: 100%
+[04:26:44 INFO]: Cocoa Growth Modifier: 100%
+[04:26:44 INFO]: Mob Spawn Range: 4
+[04:26:44 INFO]: Max TNT Explosions: 100
+[04:26:44 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:26:44 INFO]: View Distance: 6
+[04:26:44 INFO]: Item Despawn Rate: 6000
+[04:26:44 INFO]: Item Merge Radius: 2.5
+[04:26:44 INFO]: Arrow Despawn Rate: 1200
+[04:26:44 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:26:44 INFO]: Experience Merge Radius: 3.0
+[04:26:44 INFO]: Zombie Aggressive Towards Villager: true
+[04:26:44 INFO]: Nerfing mobs spawned from spawners: false
+[04:26:44 INFO]: -------- World Settings For [world_the_end] --------
+[04:26:44 INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[04:26:44 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[04:26:44 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[04:26:44 INFO]: Random Lighting Updates: false
+[04:26:44 INFO]: Structure Info Saving: true
+[04:26:44 INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[04:26:44 INFO]: Cactus Growth Modifier: 100%
+[04:26:44 INFO]: Cane Growth Modifier: 100%
+[04:26:44 INFO]: Melon Growth Modifier: 100%
+[04:26:44 INFO]: Mushroom Growth Modifier: 100%
+[04:26:44 INFO]: Pumpkin Growth Modifier: 100%
+[04:26:44 INFO]: Sapling Growth Modifier: 100%
+[04:26:44 INFO]: Wheat Growth Modifier: 100%
+[04:26:44 INFO]: NetherWart Growth Modifier: 100%
+[04:26:44 INFO]: Vine Growth Modifier: 100%
+[04:26:44 INFO]: Cocoa Growth Modifier: 100%
+[04:26:44 INFO]: Mob Spawn Range: 4
+[04:26:44 INFO]: Max TNT Explosions: 100
+[04:26:44 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[04:26:44 INFO]: View Distance: 6
+[04:26:44 INFO]: Item Despawn Rate: 6000
+[04:26:44 INFO]: Item Merge Radius: 2.5
+[04:26:44 INFO]: Arrow Despawn Rate: 1200
+[04:26:44 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[04:26:44 INFO]: Experience Merge Radius: 3.0
+[04:26:44 INFO]: Zombie Aggressive Towards Villager: true
+[04:26:44 INFO]: Nerfing mobs spawned from spawners: false
+[04:26:44 INFO]: Preparing start region for level 0 (Seed: -7640933414639134267)
+[04:26:46 INFO]: Preparing spawn area: 0%
+[04:26:46 INFO]: Preparing start region for level 1 (Seed: -7640933414639134267)
+[04:26:46 INFO]: Preparing start region for level 2 (Seed: -7640933414639134267)
+[04:26:47 INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[04:26:47 INFO]: [AuthMe] SQLite Setup finished
+[04:26:47 INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[04:26:47 WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[04:26:47 INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[04:26:47 INFO]: [ViaVersion] Enabling ViaVersion v5.3.3-SNAPSHOT
+[04:26:47 INFO]: [ViaBackwards] Enabling ViaBackwards v5.3.2
+[04:26:47 INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[04:26:47 INFO]: [EaglerXServer] Enabling EaglercraftXServer v1.0.7
+[04:26:47 INFO]: [EaglerXServer] Connecting to skin cache database "jdbc:sqlite:eagler_skins_cache.db"...
+[04:26:47 INFO]: [EaglerXServer] Listener "default" injected into channel [id: 0xe0aa124c, L:/[0:0:0:0:0:0:0:0%0]:25565] successfully (Generic Netty method)
+[04:26:47 INFO]: [EaglerXServer] Connected to skin cache database successfully!
+[04:26:47 ERROR]: [EaglerXServer] Plugin EaglercraftXServer v1.0.7 has failed to register events for class net.skinsrestorer.bukkit.listener.ForceAliveListener because org/bukkit/event/server/ServerLoadEvent does not exist.
+[04:26:47 INFO]: [EaglerXServer] Listening for SkinsRestorer skin apply event on vanilla players
+[04:26:47 INFO]: [EaglerXRewind-1.5] Enabling EaglercraftXRewind-1-5 v1.0.2
+[04:26:47 INFO]: [EaglerXRewind-1.5] EaglerXRewind protocol for Eaglercraft 1.5.2 has been registered
+[04:26:47 INFO]: Done (4.270s)! For help, type "help" or "?"
+[04:26:47 INFO]: Timings Reset
+[04:26:47 INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2 (340)
+[04:26:47 INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[04:26:47 WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[04:26:47 INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[04:26:47 WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[04:26:47 WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we will prioritize issues with legacy Minecraft versions less. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[04:26:48 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:26:48 WARN]: [ViaVersion] There is a newer plugin version available: 5.7.0, you're on: 5.3.3-SNAPSHOT
+[04:26:48 WARN]: [EaglerXServer] =============================================
+[04:26:48 WARN]: [EaglerXServer] =============================================
+[04:26:48 WARN]: [EaglerXServer] 
+[04:26:48 WARN]: [EaglerXServer]  Updates are available for EaglerXServer
+[04:26:48 WARN]: [EaglerXServer]  ---------------------------------------
+[04:26:48 WARN]: [EaglerXServer] 
+[04:26:48 WARN]: [EaglerXServer]    :< Active: 1.0.7
+[04:26:48 WARN]: [EaglerXServer] 
+[04:26:48 WARN]: [EaglerXServer]    :> Latest: 1.0.8
+[04:26:48 WARN]: [EaglerXServer] 
+[04:26:48 WARN]: [EaglerXServer]  https://lax1dude.net/eaglerxserver/
+[04:26:48 WARN]: [EaglerXServer]  -----------------------------------
+[04:26:48 WARN]: [EaglerXServer] 
+[04:26:48 WARN]: [EaglerXServer] =============================================
+[04:26:48 WARN]: [EaglerXServer] =============================================
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.9.3[0;39m
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m989bf18[0;39m
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[04:26:48 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
