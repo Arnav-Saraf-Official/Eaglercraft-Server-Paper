@@ -1,4 +1,11 @@
 {
-  "name": "Auto-start",
-  "postAttachCommand": "bash -c 'source ./run.sh'"
+  "name": "Minecraft Server",
+  "forwardPorts": [25565],
+  "portsAttributes": {
+    "25565": {
+      "label": "Minecraft Server",
+      "onAutoForward": "public"
+    }
+  },
+  "postAttachCommand": "bash run.sh"
 }
